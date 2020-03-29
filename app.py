@@ -9,6 +9,7 @@ app.config.from_object("config.DevelopmentConfig")
 
 # สร้างตัวแปรเก็บผลลัพท์จากฟังชั่น
 thai = ThaiCovid19()
+#print('อัพเดต:', thai)
 print('อัพเดต:', thai['อัพเดต'])
 print('ผู้ป่วยสะสม:', thai['ผู้ป่วยสะสม'])
 print('ผู้ป่วยรายใหม่:', thai['ผู้ป่วยรายใหม่'])
